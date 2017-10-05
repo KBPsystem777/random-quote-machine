@@ -14,7 +14,8 @@ var quotes = [
 "Never forget what you are, the rest of the world will not. Wear it like armor and it can never be used to hurt you. - Tyrion Lannister",
 "I was trying to win the throne to save the kingdom, when I should have been trying to save the kingdom to win the throne - Stannis Baratheon",
 "I never asked for this crown. Gold is cold and heavy on the head, but so long as I am the king, I have a duty. If I must sacrifice one child to the flames to save a million from the dark, Sacrifice is never easy, Davos. Or it is no true sacrifice. - Stannis Baratheon",
-
+"Until the sun rises in the west and sets in the east, until the rivers run dry and the mountains blow in the wind like leaves. When my womb quickens again, and I bear a living child. Then you will return, my sun-and-stars, and not before. - Daenarys Targaryen",
+"You're the great number of woman I ever imagined. - Daario Naharis"    
 ];
 
 //Random Quotes generation
