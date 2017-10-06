@@ -1,23 +1,19 @@
 .kbpbody {
-
     font-family: 'Kaushan Script', 'cursive';
     background-color: #3b5998;
     color:#3b5998;
     font-size: 20px;
-
 }
 
 
 .button {
     font-size: 26px;
     position: absolute;
-   
-    
 }
 
 .kbptxt {
-    color: white;
     font-family: "Shadows Into Light Two", cursive;
+    color: white;
 }
 
 .jumbotron {
@@ -26,13 +22,10 @@
 
 #fixedbutton {
     position: center;
-    
-    
-
 }
 
 kbpinline {
     color: white;
-  
-    
 }
+
+#home {padding:2%; background-color:#3b5998;}

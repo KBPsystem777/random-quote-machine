@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>KBPsystem | Quote Generator</title>
         <link href="style.css" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
         <!--Font Awesome-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <!--Favicon-->
@@ -14,6 +13,8 @@
         <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
+        <!--JQUERY-->
+        <link href="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
         <script src="javascript.js"></script>
     <body class="kbpbody container-fluid">
         <div class="container-fluid">
@@ -27,14 +28,13 @@
                     </div>
                 </div>
             </div><br>
-        <button id="fixedbutton" class="btn btn-info center-block " onclick="newQuote()">Generate New Quote</button><br>
-        
-        <div class="row">        
-            <footer class="caption text-center">
-                <h5 class="kbptxt">*** Compiled and Coded by Koleen BP ***</h5>
-            </footer>
-        </div>
-        
-
+        <div id="home">
+            <button id="fixedbutton" class="btn btn-info center-block " onclick="newQuote()">Generate New Quote</button><br>
+        </div>   
     </body>
+    <div class="row" id="kbpfooter">        
+        <footer class="caption text-center">
+            <h5 class="kbptxt">*** Compiled and Coded by Koleen BP ***</h5>
+        </footer>
+    </div>
 </html>
