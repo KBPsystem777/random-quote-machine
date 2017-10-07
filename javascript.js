@@ -31,3 +31,9 @@ function newQuote() {
 
 }
 
+$("#desni").click(function(){
+    var textToTweet=$(".quote").text()+ ' -' + $(".autor").text();
+    var tweetLink = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(textToTweet);
+window.open(tweetLink,'_blank');});
+
+
