@@ -12,7 +12,7 @@
 }
 
 .kbptxt {
-    font-family: "Shadows Into Light Two", cursive;
+    font-family: "Shadows Into Light Two", 'cursive';
     color: white;
 }
 
@@ -22,10 +22,17 @@
 
 #fixedbutton {
     position: center;
+    height: 50px;
+    width: 200px;
 }
 
 kbpinline {
     color: white;
 }
 
-#home {padding:2%; background-color:#3b5998;}
+
+
+.fa {
+    font-family: "Shadows Into Light Two", 'cursive';
+    font-size: 27px;
+}
