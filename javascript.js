@@ -31,7 +31,7 @@ function newQuote() {
 
 }
 
-$(kbptwitter).attr("href", 'https://twitter.com/intent/tweet?text=' + randomQuote + '#KBPsystem');
+$(#kbptwitter).attr("href", 'https://twitter.com/intent/tweet?text= + randomQuote');
 
 
 
