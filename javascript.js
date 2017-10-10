@@ -30,9 +30,6 @@ function newQuote() {
     document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
 
 }
-
-$(".twitter-share-button").click(function(){
-    $(this).attr("href", 'https://twitter.com/intent/tweet?text=' + randomQuote);
-  });
-
-
+function tweetThis() {
+    window.open('https://twitter.com/intent/tweet?text="' + quotes + '"', '_blank');
+}
