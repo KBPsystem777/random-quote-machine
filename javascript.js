@@ -28,8 +28,14 @@ function newQuote() {
     console.log(randomNumber)
     console.log(quotes[randomNumber]);
     document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
+    
 
 }
 function tweetThis() {
-    window.open('https://twitter.com/intent/tweet?text="' + quotes + '"', '_blank');
+    var tweetMessage = quoteDisplay.textContent;
+        if (tweetMessage === "Click to Generate Game Of Thrones Inspired Quotes...") {
+            alert('Generate quotes first before sharing!');
+        } else {
+            window.open('https://twitter.com/intent/tweet?text="' + tweetMessage + '"&via=kbpsystem', '_blank');
+        }
 }
