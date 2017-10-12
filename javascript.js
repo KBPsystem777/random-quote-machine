@@ -33,7 +33,7 @@ function newQuote() {
 }
 function tweetThis() {
     var tweetMessage = quoteDisplay.textContent;
-        if (tweetMessage === "Click to Generate Game Of Thrones Inspired Quotes...") {
+        if (tweetMessage === "Click Generate New Quote button to have Game Of Thrones Inspired Quotes here!...") {
             alert('Generate quotes first before sharing!');
         } else {
             window.open('https://twitter.com/intent/tweet?text="' + tweetMessage + '"&via=kbpsystem', '_blank');
