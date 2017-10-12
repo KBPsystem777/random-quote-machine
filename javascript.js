@@ -20,22 +20,30 @@ var quotes = [
 
 ];
 
+object.onload = "newQuote";
+
+
 //Random Quotes generation
 function newQuote() {
-    
+    //Creating random quotes
     var randomNumber = Math.floor(Math.random()*(quotes.length));
-    //console.log(quotes[randomNumber]);
-    console.log(randomNumber)
+
+    console.log(randomNumber);
     console.log(quotes[randomNumber]);
+    //display random quote to quoteDisplay id
     document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
     
 
 }
+
+//Tweet Function
 function tweetThis() {
     var tweetMessage = quoteDisplay.textContent;
         if (tweetMessage === "Click Generate New Quote button to have Game Of Thrones Inspired Quotes here!...") {
+            //if no quote is generated, twitter share is disabled
             alert('Generate quotes first before sharing!');
         } else {
+            //Opening twitter.com and tweeting the random quote
             window.open('https://twitter.com/intent/tweet?text="' + tweetMessage + '"&via=kbpsystem', '_blank');
         }
 }
