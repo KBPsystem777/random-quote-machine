@@ -1,34 +1,20 @@
 .kbpbody {
-    font-family: 'Kaushan Script', 'cursive';
     background-color: #3b5998;
-    color:#3b5998;
-    font-size: 20px;
+    color: rgb(223, 220, 220);
+};
+
+.btn-block {
+    padding: 2%;
 }
 
-
-.button {
-    font-size: 26px;
-    position: absolute;
+.button-style {
+    font-size: 25px;
 }
 
-.kbptxt {
-    font-family: "Shadows Into Light Two", 'cursive';
-    color: white;
+.quoteoutput {
+   height: 190px;
 }
 
-.jumbotron {
-    color: black;
+.kbpfooter {
+    background-color: black;
 }
-
-#fixedbutton {
-    position: center;
-    height: 50px;
-    width: 200px;
-}
-
-kbpinline {
-    color: white;
-}
-
-
-

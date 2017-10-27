@@ -5,7 +5,7 @@
         <link href="style.css" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--Font Awesome-->
-        <link rel="stylesheet" href="font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <!--Favicon-->
         <link rel="shortcut icon" type="image/x-icon" href="https://kbpsystem777.github.io/Shot/favicon.ico">
         <!--Bootstrap-->
@@ -18,35 +18,45 @@
         <link href="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
         <!--javascript file-->
         <script src="javascript.js"></script>
-        <link href="bootstrap-social-gh-pages/bootstrap-social.css">
     </head>
 
-    <!--body---------------------------------------------------------------------------------->
-    <body class="kbpbody container-fluid">
+    <!--body-->
+    <body class="container-fluid kbpbody">
         <div class="container-fluid">
-            <h1 class="text-center kbptxt">Random Quote Machine</h1>
-            <h5 class="kbptxt text-center">https://www.freecodecamp.org/challenges/build-a-random-quote-machine</h5><br>
-        </div>
-            <div class="row">
+            <div>
+                <h1 class="text-center"><b><i class="fa fa-free-code-camp"></i> Random Quote Machine</h1></b>
+                <h5 class="text-center">https://www.freecodecamp.org/challenges/build-a-random-quote-machine</h5><br>
+            </div>
+            <div class="container">
                 <div class="container">
-                    <div class="jumbotron">
-                        <div id="quoteDisplay" class="text-center">Click Generate New Quote button to have Game Of Thrones Inspired Quotes here!...</div>
+                    <div class="quoteoutput">
+                        <div id="quoteDisplay" class="text-center">Click to Generate Game Of Thrones Inspired Quotes...</div><br>
                     </div>
                 </div>
-            </div><br>
-        <div id="home">
-            <div class="row">
-                <button id="fixedbutton" class="btn btn-info center-block" onclick="newQuote()">Generate New Quote</button><br>
-                <button id="fixedbutton" class="btn btn-info center-block" onclick="tweetThis()">
-                    <i class="fa fa-twitter"></i>
-                    Tweet this!
-                </button>
             </div>
-        </div>   
+            <div class="container">
+                <div class="row">
+                    <div class="button-style">
+                        <button id="fixedbutton" class="btn btn-primary btn-block" onclick="newQuote()">
+                            <i class="fa fa-cogs"></i> Generate New Quote</button>
+                        <button id="fixedbutton" class="btn btn-primary btn-block" onclick="tweetThis()">
+                            <i class="fa fa-twitter"></i> Tweet This!!</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
     </body>
     <div class="row" id="kbpfooter">        
         <footer class="caption text-center"><br>
-            <h5 class="kbptxt">*** Coded by Koleen BP ***</h5>
+            <h5 class="kbptxt">Coded By: Koleen BP
+                <div class="row kbpbody">
+                    <button class="btn"><a href="https://github.com/kbpsystem777"><i class="fa fa-github"></i> github</a></button>
+                    <button class="btn"><a href="https://www.linkedin.com/in/kbpsystem/"><i class="fa fa-linkedin"></i> linkedin</a></button>
+                    <button class="btn"><a href="https://www.twitter.com/kbpsystem"><i class="fa fa-twitter"></i> twitter</a></button>
+                    <button class="btn"><a href="https://www.gitlab.com/kbpsystem"><i class="fa fa-gitlab"></i> gitlab</a></button>
+                </div>
+            </h5>
         </footer>
     </div>
 

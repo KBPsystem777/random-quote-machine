@@ -16,34 +16,27 @@ var quotes = [
 "I never asked for this crown. Gold is cold and heavy on the head, but so long as I am the king, I have a duty. If I must sacrifice one child to the flames to save a million from the dark, Sacrifice is never easy, Davos. Or it is no true sacrifice. - Stannis Baratheon",
 "Until the sun rises in the west and sets in the east, until the rivers run dry and the mountains blow in the wind like leaves. When my womb quickens again, and I bear a living child. Then you will return, my sun-and-stars, and not before. - Daenarys Targaryen",
 "You're the great number of woman I ever imagined. - Daario Naharis",
-"The Iron Throne is mine by right. Those who denies it are my foes - Stannis Baratheon"
+"The Iron Throne is mine by right. Those who denies it are my foes - Stannis Baratheon",
+"The Castle can be rebuilt, in time. It's not the walls that make a lord, it's the man - Stannis Baratheon"
 
 ];
 
-object.onload = "newQuote";
-
-
 //Random Quotes generation
 function newQuote() {
-    //Creating random quotes
+    
     var randomNumber = Math.floor(Math.random()*(quotes.length));
-
-    console.log(randomNumber);
+    //console.log(quotes[randomNumber]);
+    console.log(randomNumber)
     console.log(quotes[randomNumber]);
-    //display random quote to quoteDisplay id
     document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
     
 
 }
-
-//Tweet Function
 function tweetThis() {
     var tweetMessage = quoteDisplay.textContent;
-        if (tweetMessage === "Click Generate New Quote button to have Game Of Thrones Inspired Quotes here!...") {
-            //if no quote is generated, twitter share is disabled
+        if (tweetMessage === "Click to Generate Game Of Thrones Inspired Quotes...") {
             alert('Generate quotes first before sharing!');
         } else {
-            //Opening twitter.com and tweeting the random quote
             window.open('https://twitter.com/intent/tweet?text="' + tweetMessage + '"&via=kbpsystem', '_blank');
         }
 }
