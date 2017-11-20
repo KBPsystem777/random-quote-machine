@@ -40,3 +40,10 @@ function tweetThis() {
             window.open('https://twitter.com/intent/tweet?text="' + tweetMessage + '"&via=kbpsystem', '_blank');
         }
 }
+
+//jQuery
+$(document).ready(function() {
+    $(".quoteoutput").css("background-color", "#365cb5");
+    $(".quoteoutput").css("font-family", "Spectral SC");
+    $(".btn").css("font-family", "Kaushan Script")
+});
