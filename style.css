@@ -1,28 +1,5 @@
-.kbpbody {
-    background-color: #3b5998;
-    color: rgb(223, 220, 220);
-};
 
 
-.button-style {
-    font-size: 25px;
-    margin: 0 auto;
-    float: left;
+#app-header {
+    background-color: #575fcf;
 }
-
-.quoteoutput {
-   height: 190px;
-   padding: 45px;
-   position: center;
-   font-size: 20px;
-}
-
-.kbpfooter {
-    background-color: black;
-}
-
-.btn :hover {
-  font-weight: bold;
-  font-size: 20px;
-}
-
