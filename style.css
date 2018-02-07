@@ -2,4 +2,34 @@
 
 #app-header {
     background-color: #575fcf;
+    color: #ffff;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+#app-buttons {
+    padding-top: 300px;
+}
+
+body {
+
+}
+
+
+
+
+#quote-area {
+    padding-top: 100px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: #575fcf;
 }
