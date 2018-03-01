@@ -1,50 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <title>KBPsystem | Quote Generator</title>
-        <link href="style.css" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!--Font Awesome-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!--Favicon-->
-        <link rel="shortcut icon" type="image/x-icon" href="https://kbpsystem777.github.io/Shot/favicon.ico">
-        <!--Bootstrap-->
-        <link href="bootstrap.min.css" rel="stylesheet">
-        <!--Google Fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
-        <!--JQUERY-->
-        <link href="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-        <!--javascript file-->
-        <script src="javascript.js"></script>
+        <title>Random Quote Machine</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
-
-    <!--body---------------------------------------------------------------------------------->
-    <body class="kbpbody container-fluid">
-        <div class="container-fluid">
-            <h1 class="text-center kbptxt">Random Quote Machine</h1>
-            <h5 class="kbptxt text-center">https://www.freecodecamp.org/challenges/build-a-random-quote-machine</h5><br>
-        </div>
-            <div class="row">
-                <div class="container">
-                    <div class="jumbotron">
-                        <div id="quoteDisplay" class="text-center">Click to Generate Game Of Thrones Inspired Quotes...</div>
-                    </div>
+    <body class="w3-mobile w3-responsive">
+        <div class="w3-center" id="app-header"><h3>Random Quote Machine</h3></div>
+        
+        <div class="w3-container">
+            <div class="w3-center" id="quote-area">Quotes goes here</div>
+            <div class="w3-container" id="app-buttons">
+                <div class="w3-row w3-center">
+                    <button class="w3-btn w3-blue">Generate Quote</button>
+                    <button class="w3-btn w3-blue">Tweet!</button>
                 </div>
-            </div><br>
-        <div id="home">
-            <div class="row">
-                <button id="fixedbutton" class="btn btn-info center-block" onclick="newQuote()">Generate New Quote</button><br>
-                <button id="fixedbutton" class="btn btn-info center-block" onclick="tweetThis()"><i class="fa fa-twitter"></i> Tweet This!</button>
             </div>
-        </div>   
-    </body>
-    <div class="row" id="kbpfooter">        
-        <footer class="caption text-center"><br>
-            <h5 class="kbptxt">*** Compiled and Coded by Koleen BP ***</h5>
+        </div>
+        <footer>
+            <div class="w3-center">License and Terms of Use</div>
         </footer>
-    </div>
-
-
+    </body>
 </html>
