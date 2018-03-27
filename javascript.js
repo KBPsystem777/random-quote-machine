@@ -23,20 +23,24 @@ var quotes = [
 
 
 
-//Display a defualt Quote on the page after it has been loaded.
-window.onload = function setPrimaryQuote() {
-	var primaryQuote = quotes[17];
-	document.getElementById('quoteDisplay').innerHTML = primaryQuote;	
-}
+
 
 
 //Random Quotes generation
 function newQuote() {
     var randomNumber = Math.floor(Math.random()*(quotes.length));
     //console.log(quotes[randomNumber]);
-    console.log(randomNumber)
-    console.log(quotes[randomNumber]);
+    //console.log(randomNumber)
+    //console.log(quotes[randomNumber]);
     document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
+}
+
+//Display a random Quote on the page after it has been loaded.
+window.onload = function setPrimaryQuote() {
+	var primaryQuote = Math.floor(Math.random()*(quotes.length));
+	
+	//This code is responsible for displaying a random quote on the page once loaded.
+	document.getElementById('quoteDisplay').innerHTML = quotes[primaryQuote];
 }
 
 
