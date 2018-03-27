@@ -21,29 +21,31 @@ var quotes = [
 
 ];
 
+
+
+//Display a defualt Quote on the page after it has been loaded.
+window.onload = function setPrimaryQuote() {
+	var primaryQuote = quotes[17];
+	document.getElementById('quoteDisplay').innerHTML = primaryQuote;	
+}
+
+
 //Random Quotes generation
 function newQuote() {
-    
     var randomNumber = Math.floor(Math.random()*(quotes.length));
     //console.log(quotes[randomNumber]);
     console.log(randomNumber)
     console.log(quotes[randomNumber]);
     document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
-    
-
 }
+
+
+//Tweet the current Quote
 function tweetThis() {
     var tweetMessage = quoteDisplay.textContent;
         if (tweetMessage === "Click to Generate Game Of Thrones Inspired Quotes...") {
             alert('Generate quotes first before sharing!');
         } else {
-            window.open('https://twitter.com/intent/tweet?text="' + tweetMessage + '"&via=kbpsystem', '_blank');
+            window.open('https://twitter.com/intent/tweet?text="' + tweetMessage + '" Tweeted using Random Quote Machine by @kbpsystem', '_blank');
         }
 }
-
-//jQuery
-$(document).ready(function() {
-    $(".quoteoutput").css("background-color", "#365cb5");
-    $(".quoteoutput").css("font-family", "Spectral SC");
-    $(".btn").css("font-family", "Kaushan Script")
-});

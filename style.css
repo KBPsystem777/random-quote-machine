@@ -1,3 +1,13 @@
+
+body {
+	font-size: 11pxl;
+}
+
+a, footer {
+	color: #fff !important;
+	text-decoration: none;
+}
+
 .kbpbody {
     background-color: #3b5998;
     color: rgb(223, 220, 220);
@@ -14,15 +24,27 @@
    height: 190px;
    padding: 45px;
    position: center;
-   font-size: 20px;
+
 }
 
 .kbpfooter {
-    background-color: black;
+    padding-top: 20%;
+	color: #fff;
 }
 
-.btn :hover {
-  font-weight: bold;
-  font-size: 20px;
+
+button {
+	text-align: center;
 }
+
+
+#button-padding {
+
+}
+
+#dashboard {
+	padding-top: 30%;
+}
+
+
 
