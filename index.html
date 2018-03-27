@@ -4,7 +4,15 @@
 	<meta charset='UTF-8'>
 	<title>Random Quote Machine</title>
 	<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
-	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css' integrity='sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm' crossorigin='anonymous'>	<link href='style.css' rel='stylesheet'>
+	<!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-                    rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-    Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link href='style.css' rel='stylesheet'>
 	<meta name='viewport' content='width=device-width, initial-scale=1'>
 	<!--javascript file-->
 	<script src='javascript.js'></script>
@@ -23,27 +31,27 @@
                 </div>
             </div><br>
             <div>
-                <div>
+                <div class="container-fluid">
                     <div class='text-center'>
-						<div>
-							<p onclick='newQuote()'>
-								<i class='fa fa-cogs'></i> Generate New Quote</p>
-							<p onclick='tweetThis()'>
-								<i class='fa fa-twitter'></i> Tweet This!!</p>
-						</div>
+		        <div>
+			        <button class="btn btn"onclick='newQuote()'>
+				        <i class='fa fa-cogs'></i><strong> Generate New Quote</strong></button>
+			        <button class="btn btn"onclick='tweetThis()'>
+			                <i class='fa fa-twitter'></i><strong> Tweet This!!</strong></button>
+			</div>
                     </div>
                 </div>
             </div>
         </div>
 
 		<div class='text-center' id='kbpfooter'>        
-			<footer class='caption text-center'><br>
+			<footer class='caption text-center container-fluid'><br>
 			  <p class='kbptxt'>Coded By: Koleen BP</p>
 					<div class='container-fluid'>
 						<div class='text-center'>
-							<div class='col-12'>
+							<div class='row col-8'>
 								<p class='btn'><a href='https://koleenbp.now.sh' target='_blank'><i class='fa fa-globe'></i> koleenbp.now.sh</a></p>
-								<p class='btn'><a href='https://github.com/kbpsystem777'><i class='fa fa-github'></i> github</a></p>
+								<p class='btn'><a href='https://github.com/KBPsystem777/random-quote-machine'><i class='fa fa-github'></i> Fork me on GitHub</a></p>
 								<p class='btn'><a href='https://www.linkedin.com/in/kbpsystem/'><i class='fa fa-linkedin'></i> linkedin</a></p>
 								<p class='btn'><a href='https://www.twitter.com/kbpsystem'><i class='fa fa-twitter'></i> twitter</a></p>
 								<p class='btn'><a href='https://www.gitlab.com/kbpsystem'><i class='fa fa-gitlab'></i> gitlab</a></p>

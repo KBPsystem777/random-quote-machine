@@ -6,6 +6,7 @@ a, footer {
 .kbpbody {
     background-color: #3b5998;
     color: rgb(223, 220, 220);
+    padding-top: 20px;
 };
 
 #app-header {
@@ -18,8 +19,8 @@ a, footer {
 }
 
 .quoteoutput {
-   padding: 2%;
-   position: center;
+        padding: 2%;
+        position: center;
 }
 
 .kbpfooter {
@@ -28,10 +29,14 @@ a, footer {
 
 footer {
 	
-	position: fixed;
+        position: fixed;
 	bottom: 0;
 	width: 100%;
 	background-color:;
-	color: white;
-	
+	color: white;	
+}
+
+button {
+        color: #3b5998;
+
 }
