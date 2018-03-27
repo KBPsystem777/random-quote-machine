@@ -1,25 +1,57 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Random Quote Machine</title>
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <link rel="stylesheet" href="style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body class="w3-mobile w3-responsive">
-        <div class="w3-center" id="app-header"><h3>Random Quote Machine</h3></div>
-        
-        <div class="w3-container">
-            <div class="w3-center" id="quote-area">Quotes goes here</div>
-            <div class="w3-container" id="app-buttons">
-                <div class="w3-row w3-center">
-                    <button class="w3-btn w3-blue">Generate Quote</button>
-                    <button class="w3-btn w3-blue">Tweet!</button>
+<html >
+<head>
+	<meta charset='UTF-8'>
+	<title>Random Quote Machine</title>
+	<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css' integrity='sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm' crossorigin='anonymous'>	<link href='style.css' rel='stylesheet'>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<!--javascript file-->
+	<script src='javascript.js'></script>
+</head>
+    <body class='container-fluid kbpbody'>
+        <div class='container-fluid'>
+            <div>
+                <p class='text-center'><b><i class='fa fa-free-code-camp'></i> Random Quote Machine</p></b>
+                <p class='text-center'>A FreeCodeCamp Project</p><br>
+            </div>
+            <div class='container-fluid'>
+                <div class='container-fluid'>
+                    <div class='quoteoutput'>
+                        <div id='quoteDisplay' class='text-center'>QuoteDisplay</div><br>
+                    </div>
+                </div>
+            </div><br>
+            <div class='container-fluid' id='dashboard'>
+                <div class='row'>
+                    <div class='button-style text-center'>
+						<div class='col-12 container-fluid' id="button-padding">
+							<button id='fixedbutton' class='btn btn-primary btn-hover' onclick='newQuote()'>
+								<i class='fa fa-cogs'></i> Generate New Quote</button>
+							<button id='fixedbutton' class='btn btn-primary btn-center btn-hover' onclick='tweetThis()'>
+								<i class='fa fa-twitter'></i> Tweet This!!</button>
+						</div>
+                    </div>
                 </div>
             </div>
         </div>
-        <footer>
-            <div class="w3-center">License and Terms of Use</div>
-        </footer>
     </body>
+    <div class='row text-center' id='kbpfooter'>        
+        <footer class='caption text-center'><br>
+          <p class='kbptxt'>Coded By: Koleen BP</p>
+				<div class='container-fluid'>
+					<div class='text-center'>
+						<div class='col-12'>
+							<p class='btn'><a href='https://koleenbp.now.sh' target='_blank'><i class='fa fa-globe'></i> koleenbp.now.sh</a></p>
+							<p class='btn'><a href='https://github.com/kbpsystem777'><i class='fa fa-github'></i> github</a></p>
+							<p class='btn'><a href='https://www.linkedin.com/in/kbpsystem/'><i class='fa fa-linkedin'></i> linkedin</a></p>
+							<p class='btn'><a href='https://www.twitter.com/kbpsystem'><i class='fa fa-twitter'></i> twitter</a></p>
+							<p class='btn'><a href='https://www.gitlab.com/kbpsystem'><i class='fa fa-gitlab'></i> gitlab</a></p>
+						</div>
+					</div>
+				</div>
+        </footer>
+    </div>
+</html>
+</body>
 </html>

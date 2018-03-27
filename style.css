@@ -1,4 +1,19 @@
 
+body {
+	font-size: 11pxl;
+}
+
+a, footer {
+	color: #fff !important;
+	text-decoration: none;
+}
+
+.kbpbody {
+    background-color: #3b5998;
+    color: rgb(223, 220, 220);
+};
+
+
 
 #app-header {
     background-color: #575fcf;
@@ -9,6 +24,35 @@
     width: 100%
 }
 
+.quoteoutput {
+   height: 190px;
+   padding: 45px;
+   position: center;
+
+}
+
+.kbpfooter {
+    padding-top: 20%;
+	color: #fff;
+}
+
+
+button {
+	text-align: center;
+}
+
+
+#button-padding {
+
+}
+
+#dashboard {
+	padding-top: 30%;
+}
+
+
+
+=======
 #app-buttons {
     padding-top: 300px;
 }
@@ -31,5 +75,4 @@ footer {
     width: 100%;
     color: white;
     text-align: center;
-    background-color: #575fcf;
-}
+    background-color: #575fcf
